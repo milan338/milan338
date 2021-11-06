@@ -1,4 +1,4 @@
-<div align="left">
+<div align="center">
     <img src="assets/name.svg" width="800" height="400">
 </div>
 
@@ -42,5 +42,5 @@
 
 ## Stats
 
-![TopLang](https://github-readme-stats.vercel.app/api/top-langs/?username=milan338&layout=compact&card_width=445)
+![TopLang](https://github-readme-stats.vercel.app/api/top-langs/?username=milan338&layout=compact&card_width=445&hide=ShaderLab)
 ![Stats](https://github-readme-stats.vercel.app/api?username=milan338&hide_title=true&show_icons=true)
