@@ -1,4 +1,6 @@
-![Image](assets/name.gif)
+<div align="left">
+    <img src="assets/name.svg" width="800" height="400">
+</div>
 
 # Welcome to my Github profile 👋
 

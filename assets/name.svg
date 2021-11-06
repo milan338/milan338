@@ -1,0 +1,125 @@
+<svg fill="none" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @keyframes gradient-anim {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+                    50% {
+                        background-position: 100% 50%;
+                    }
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+
+                @keyframes reveal-front {
+                    0% {
+                        transform: translateX(-100%);
+                    }
+                    100% {
+                        transform: translateX(100%);
+                    }
+                }
+
+                @keyframes reveal-back {
+                    0% {
+                        transform: translateX(0%);
+                    }
+                    100% {
+                        transform: translateX(100%);
+                    }
+                }
+
+                * {
+                    font-family: 'Arial', sans-serif;
+                }
+                
+                html[data-color-mode='light'] {
+                    --text-color: black;
+                    --bg-color: white;
+                }
+                
+                html[data-color-mode='dark'] {
+                    --text-color: white;
+                    --bg-color: black;
+                }
+
+                h1 {
+                    margin: 0;
+                    padding: 0;
+                    text-align: left;
+                    position: relative;
+                    overflow: hidden;
+                }
+
+                #greeting {
+                    font-weight: normal;
+                    font-size: 3em;
+                    padding-left: 0.12em;
+                    color: var(--text-color);
+                }
+
+                #name {
+                    font-weight: normal;
+                    font-size: 7em;
+                }
+
+                .gradient {
+                    background-color: var(--text-color);
+                    background-image: linear-gradient(
+                        -45deg,
+                        #ff9600,
+                        #ee7752,
+                        #e73c7e,
+                        #9600ff
+                    );
+                    animation: gradient-anim 10s ease infinite;
+                    background-size: 400% 400%;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    -moz-background-clip: text;
+                    -moz-text-fill-color: transparent;
+                }
+
+                .reveal {
+                    position: relative;
+                    overflow: hidden;
+                    float: left;
+                    clear: both;
+                }
+
+                .reveal::before,
+                .reveal::after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    right: 0;
+                    background-color: var(--text-color);
+                    will-change: transform;
+                }
+
+                .reveal::before {
+                    animation: reveal-front 1.3s ease forwards;
+                }
+
+                .reveal::after {
+                    background-color: var(--bg-color);
+                    animation: reveal-back 1.3s ease forwards;
+                }
+            </style>
+            <div class="main">
+                <h1 id="greeting" class="reveal">
+                    Hey there,
+                </h1>
+                <h1 id="name" class="gradient reveal">
+                    I&apos;m Milan
+                </h1>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
