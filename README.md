@@ -1,5 +1,5 @@
-<div align="center">
-    <img src="assets/name.svg" width="800" height="400">
+<div align="left">
+    <img src="assets/name.svg">
 </div>
 
 # Welcome to my Github profile 👋
