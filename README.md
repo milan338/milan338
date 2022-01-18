@@ -36,7 +36,8 @@
 
 ### System
 
-![Windows](https://img.shields.io/badge/WINDOWS_10-darkblue?&style=for-the-badge&logo=windows&logoColor=white)
+![Windows](https://img.shields.io/badge/WINDOWS_11-0078D6?&style=for-the-badge&logo=microsoft&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/UBUNTU-E95420?&style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Cpu](https://img.shields.io/badge/i7_4790-dodgerblue?&style=for-the-badge&logo=intel&logoColor=white)
 ![Gpu](https://img.shields.io/badge/gtx_1070-green?&style=for-the-badge&logo=nvidia&logoColor=white)
 
