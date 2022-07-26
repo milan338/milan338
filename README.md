@@ -43,12 +43,5 @@
 
 ### Stats
 
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=milan338&layout=compact&card_width=445&hide_border=true&hide=ShaderLab&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515##">
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=milan338&layout=compact&card_width=445&hide_border=true&hide=ShaderLab##">
-</picture>
-</br>
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=milan338&hide_title=true&hide_border=true&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515##">
-    <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=milan338&hide_title=true&hide_border=true&show_icons=true##">
-</picture>
+![languages](https://github-readme-stats.vercel.app/api/top-langs/?username=milan338&layout=compact&card_width=445&hide_border=true&hide=ShaderLab&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)\
+![stats](https://github-readme-stats.vercel.app/api?username=milan338&hide_title=true&hide_border=true&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
